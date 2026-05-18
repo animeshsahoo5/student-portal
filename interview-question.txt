@@ -1,0 +1,38 @@
+1. What is Branching?
+
+Branching in Git allows developers to create a separate working area for new features or bug fixes without affecting the main code.
+ It helps multiple developers work independently on different tasks.
+
+2. What is Pull Request?
+
+A Pull Request is a request to merge code changes from one branch into another, usually into the main branch.
+ It is used for code review and approval before merging.
+
+3. Difference Between Merge and Pull
+
+Merge combines changes from one branch into another branch locally. 
+Pull downloads the latest changes from the remote repository and updates the local repository.
+
+4. What is Merge Conflict?
+
+A merge conflict occurs when Git cannot automatically merge changes because the same part of a file was modified differently by multiple developers. 
+It must be resolved manually.
+
+5. Difference Between Fetch and Pull
+
+Fetch only downloads the latest changes from the remote repository without modifying local files. 
+Pull downloads the changes and automatically merges them into the current branch.
+
+6. What is Upstream Tracking?
+
+Upstream tracking links a local branch with a remote branch, allowing simple git push and git pull commands without specifying branch names every time.
+
+7. Difference Between Local and Remote Repository
+
+A local repository is stored on a developer’s computer and used for personal development. 
+A remote repository is hosted on platforms like GitHub for team collaboration and code sharing.
+
+8. Explain Git Workflow in Company
+
+In companies, developers clone the repository, create feature branches, write and commit code, then push changes and create a Pull Request. 
+After code review and approval, the changes are merged into the main branch.
